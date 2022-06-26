@@ -30,3 +30,12 @@ console.log("Value of pie: " + pie);
 
 document.getElementById("p1").innerHTML = "Hello, my name is " + name + " and I'm " + age + " years old";
 document.getElementById("p2").innerHTML = "Value of pie" + pie;
+
+/*
+ * variable scope = where a variable is accessible
+ *
+ * let = varaibles are limited to block scope {}
+ * var = varaibles are limited to a function() {}
+ *
+ * global variable = is declared outside any function
+ * (if global, var will change brower's window properties)
